@@ -1,0 +1,1 @@
+vendor\bin\tester.bat -c tests/php-win.ini tests

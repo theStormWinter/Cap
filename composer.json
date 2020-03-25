@@ -1,0 +1,37 @@
+{
+  "name": "thestormwinter/cap",
+  "description": "Common Alerting Protocol Version 1.2 reader",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "php-curl-class/php-curl-class": "^8.7",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "nette/tester": "~2.0",
+    "ninjify/nunjuck": "^0.2.0"
+  },
+  "authors": [
+    {
+    "name": "Jiří Zima",
+    "email": "jzima@datron.cz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "theStormWinter\\CAP\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "theStormWinter\\CAP\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.2"
+    }
+  }
+}
