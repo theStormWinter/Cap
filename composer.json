@@ -6,7 +6,7 @@
   "require": {
     "php": ">=7.2",
     "ext-curl": "*",
-    "php-curl-class/php-curl-class": "^8.7",
+    "php-curl-class/php-curl-class": "~8.0",
     "ext-simplexml": "*"
   },
   "require-dev": {
